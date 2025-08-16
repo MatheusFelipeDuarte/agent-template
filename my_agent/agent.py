@@ -6,11 +6,11 @@ audience_analyst = LlmAgent(
 )
 
 verbatim_creator = LlmAgent(
-   #inserir seu código aqui
+    #inserir seu código aqui
 )
 
 slides_skeleton_creator = LlmAgent(
-   #inserir seu código aqui
+    #inserir seu código aqui
 )
 
 audience_tool = agent_tool.AgentTool(agent=audience_analyst)
